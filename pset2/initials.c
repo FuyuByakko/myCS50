@@ -13,10 +13,9 @@ int main(void)
 {
     //initialize a variable to store the name
     string name = get_name();
-    // pass it into a function that princts out the initials
+    // pass it into a function that prints out the initials
     get_initials(name);
-    //start a new line after
-    printf("\n");
+
 }
 
 string get_name(void)
@@ -51,4 +50,6 @@ void get_initials(string inits)
             printf("%c",toupper(inits[i]));
         }
     }
+    //start a new line after
+    printf("\n");
 }
